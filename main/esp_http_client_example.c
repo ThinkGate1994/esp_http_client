@@ -190,8 +190,8 @@ static void http_test_task(void *pvParameters)
     char *device_IP = "192.168.1.1";
     char *username = "user1";
     char *password = "user_pass";
-    char *number = "0094711813410";
-    char *text_msg = "hello senura how are you doing";
+    char *number = "0066927675708";
+    char *text_msg = "helloworld";
     HTTP_POST_RTU200(device_IP, username, password, number, text_msg);
 
     ESP_LOGI(TAG, "Finish http example");
